@@ -11,8 +11,4 @@ Feature: Login Page
     Given A user is on the login page
     When A user clicks the register button
     Then user will be redirected to the register page
-  Scenario: Entering email address will send password reset email
-    Given A user is on the login page
-    When A user inputs email address
-    Then user will remain on login page
-    And 
+
